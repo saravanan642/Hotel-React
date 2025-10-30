@@ -4,10 +4,11 @@ import { MdOutlineMarkEmailUnread } from "react-icons/md";
 const Header = () => {
   return (
     <div>
-      <div>
-        <MdOutlineMarkEmailUnread />
-        <p> info@company.com</p>
+      <div className="flex  gap-2 ">
+        <MdOutlineMarkEmailUnread className="" />
+        <p>Villa@company.com</p>
       </div>
+
     </div>
   )
 }
