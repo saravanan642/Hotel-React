@@ -23,7 +23,8 @@ const Header = () => {
         <div className='mt-[20px] flex gap-[60px]  text-2xl   ml-[35%] justify-evenly' >
 
           <div>
-            <FaFacebook />
+            <p className=' rounded-[30px] border  border-solid pl-[15px] w-[50px] h-[40px] '><FaFacebook /></p>
+            
 
           </div>
 
