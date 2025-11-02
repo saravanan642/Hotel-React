@@ -15,28 +15,34 @@ const Header = () => {
         </div>
 
 
-        <div className=" flex  gap-[20px] text-l m-[15px] ml-[5%]">
+        <div className="  flex  gap-[20px] text-l m-[15px] ml-[5%]">
           <TiWavesOutline className=" mt-[5px] text-sky-600" />
           <p className=' font-light'> Sunny Isles Beach, FL 33160</p>
         </div>
 
-        <div className='mt-[20px] flex gap-[60px]  text-2xl   ml-[35%] justify-evenly' >
+        <div className='mt-[10px] flex gap-[60px]  text-2xl   ml-[35%] justify-evenly' >
 
           <div>
-            <p className=' rounded-[30px] border  border-solid pl-[15px] w-[50px] h-[40px] '><FaFacebook /></p>
-            
+            <p className='  rounded-full border  border-solid pl-[5px] pt-[3.8px] w-[35px] h-[35px] bg-slate-300 ' ><FaFacebook /></p>
+
 
           </div>
 
           <div>
-            <FaLinkedin />
+            <p className='  rounded-full border  border-solid pl-[5px] pt-[3.8px] w-[35px] h-[35px] bg-slate-300 '><FaLinkedin /></p>
+
+          
           </div>
 
           <div>
-            <FaTwitter />
+            <p className='  rounded-full border  border-solid pl-[5px] pt-[3.8px] w-[35px] h-[35px]  bg-slate-300'> <FaInstagram  /></p>
+
+
           </div>
           <div>
-            <FaInstagram />
+            <p className='  rounded-full border  border-solid pl-[5px] pt-[3.8px] w-[35px] h-[35px]  bg-slate-300 '> <FaTwitter /></p>
+
+           
           </div>
         </div>
       </div>
