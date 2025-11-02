@@ -23,24 +23,24 @@ const Header = () => {
         <div className='mt-[10px] flex gap-[60px]  text-2xl   ml-[35%] justify-evenly' >
 
           <div>
-            <p className=' rounded-full  border border-solid pl-[5px] pt-[3.8px]  w-[35px] h-[35px]  bg-slate-300   hover:bg-blue-400  hover:scale 110 transition-all duration-400 '><FaFacebook /></p>
+            <p className=' rounded-full  border border-solid pl-[5px] pt-[3.8px]  w-[35px] h-[35px]  bg-slate-300   hover:bg-blue-300  hover:scale 110 transition-all duration-400 '><FaFacebook /></p>
 
 
           </div>
 
           <div>
-            <p className='  rounded-full border  border-solid pl-[5px] pt-[3.8px] w-[35px] h-[35px] bg-slate-300 '><FaLinkedin /></p>
+            <p className='  rounded-full border  border-solid pl-[5px] pt-[3.8px] w-[35px] h-[35px] bg-slate-300   hover:bg-blue-300  hover:scale 110 transition-all duration-400 '><FaLinkedin /></p>
 
 
           </div>
 
           <div>
-            <p className='  rounded-full border  border-solid pl-[5px] pt-[3.8px] w-[35px] h-[35px]  bg-slate-300'> <FaInstagram /></p>
+            <p className='  rounded-full border  border-solid pl-[5px] pt-[3.8px] w-[35px] h-[35px]  bg-slate-300  hover:bg-blue-300  hover:scale 110 transition-all duration-400'> <FaInstagram /></p>
 
 
           </div>
           <div>
-            <p className='  rounded-full border  border-solid pl-[5px] pt-[3.8px] w-[35px] h-[35px]  bg-slate-300 '> <FaTwitter /></p>
+            <p className='  rounded-full border  border-solid pl-[5px] pt-[3.8px] w-[35px] h-[35px]  bg-slate-300   hover:bg-blue-300  hover:scale 110 transition-all duration-400'> <FaTwitter /></p>
 
 
           </div>
