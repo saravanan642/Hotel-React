@@ -17,8 +17,8 @@ const Mainheader = () => {
 
                 <div className=" border border-none flex ">
                     
-                    <button className='font-semibold border border-solid mt-[30px] text-xl mr-[100px] pr-[30px] py-[5px] flex  items-center gap-[20px]' >
-                       < MdContactEmergency className=' m-[4px]'/> 
+                    <button className='font-semibold border border-solid mt-[30px] text-xl mr-[100px] pr-[30px] py-[5px] flex  items-center gap-[20px] bg-green-600 hover:text-rose-700 transition'  >
+                       < MdContactEmergency className=' m-[4px] text-blue-900  text-2xl'/> 
                         Visit Us
                         </button>
                 </div>
