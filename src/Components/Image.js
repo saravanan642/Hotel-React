@@ -12,7 +12,7 @@ const Image = () => {
   const settings = {
     dots: true,           // கீழே dots வரும்
     infinite: true,       // loop ஆகும்
-    speed: 500,           // transition speed
+    speed: 900,           // transition speed
     slidesToShow: 1,      // ஒரே படம் மட்டும்
     slidesToScroll: 1,    // ஒரு படம் மாறும்
     autoplay: true,       // auto slide
