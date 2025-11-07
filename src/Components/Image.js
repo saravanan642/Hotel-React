@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 // images import
-import imge1 from "../Assests/image.jpj.png";
+import imge1 from "../Assests/swimming-pool-beach-luxury-hotel-outdoor-pools-spa-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer-turkey (1).jpg";
 import image2 from "../Assests/Mainimage.jpg";
 import image3 from "../Assests/sunset.jpg";
 
