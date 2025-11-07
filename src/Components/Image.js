@@ -20,7 +20,7 @@ const Image = () => {
   };
 
   return (
-    <div className="w-full  overflow-hidden max-w-[1550px] mx-auto mt-[35px] rounded-[20px]">
+    <div className="w-full  overflow-hidden max-w-[1550px] mx-auto mt-[35px] rounded-[20px] border border-none">
       <Slider {...settings}>
         <img src={imge1} alt="img1" className="w-full h-[640px] object-cover" />
         <img src={image2} alt="img2" className="w-full h-[640px] object-cover" />
