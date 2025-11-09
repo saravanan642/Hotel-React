@@ -20,6 +20,7 @@ const Image = () => {
   };
 
   return (
+    // 
     <div className="w-full  overflow-hidden max-w-[1550px] mx-auto mt-[35px] rounded-[20px] border border-none">
       <Slider {...settings}>
         { <div className=" relative">
@@ -30,6 +31,7 @@ const Image = () => {
             <p className=" text-white m-[10px]"
             style={{ textShadow: "8px 5px 5px black " }}>Your perfect villa awaits.</p></div>
         </div> }
+        {/*  */}
 
         { <div className=" relative">
           <img src={image2} alt="img2" className="w-full h-[640px] object-cover" />
@@ -40,6 +42,7 @@ const Image = () => {
               style={{ textShadow: "1px 1px 5px white " }} >where the hills whisper peace.</p>
           </div>
         </div> }
+        {/*  */}
 
         <div className="relative">
           <img src={image3} alt="img1" className="w-full h-[640px] object-cover " />
@@ -49,9 +52,7 @@ const Image = () => {
             <p  className="text-yellow-400 m-[20px]" 
             style={{textShadow: "1px 1px 5px black"}}>discover the untamed world.</p>
           </div>
-          <div>
-
-          </div>
+      {/*  */}
 
         </div>
 

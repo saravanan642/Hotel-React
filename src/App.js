@@ -1,15 +1,20 @@
 import Header from "./Components/Header";
-import Home from "./Components/Home";
+import { Routes, Route } from 'react-router-dom';
+
 import Mainheader from "./Components/Mainheader";
 import Image from "./Components/Image"
+import About from "./Components/About";
 
 function App() {
   return (
     <div className="App">
-      <Header />
       <Mainheader />
-      <Home />
-      <Image />
+    <Routes>
+       <Route path="/" element ={<Image />} />
+       <Route path="/about" element={<About/>} />
+    </Routes>
+    
+      
       
  
     </div>
