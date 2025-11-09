@@ -24,12 +24,15 @@ const Image = () => {
       <Slider {...settings}>
         <div className=" relative">
           <img src={image3} alt="img3" className="w-full h-[640px] object-cover" />
-          <div className=" absolute top-[100px]   left-[50px] font- font-bold  text-5xl" >
-            <p className=" text-orange-700">Munnar, Karala</p>
-            <p className=" text-white">Your perfect villa awaits.</p></div>
+          <div className=" absolute top-[120px]   left-[60px] font- font-bold  text-5xl " >
+            <p className=" text-orange-700 m-[10px] text-shadow"
+              style={{ textShadow: "1px 3px 5px black " }}>Munnar, Karala</p>
+            <p className=" text-white m-[10px]">Your perfect villa awaits.</p></div>
         </div>
-
-        <img src={image2} alt="img2" className="w-full h-[640px] object-cover" />
+        <div className=" relative">
+        
+          <img src={image2} alt="img2" className="w-full h-[640px] object-cover" />
+        </div>
         <img src={imge1} alt="img1" className="w-full h-[640px] object-cover " />
       </Slider>
     </div>
