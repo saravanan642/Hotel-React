@@ -8,6 +8,7 @@ import About from "./Components/About";
 function App() {
   return (
     <div className="App">
+      <Header />
       <Mainheader />
     <Routes>
        <Route path="/" element ={<Image />} />
