@@ -1,5 +1,5 @@
-import Slider from "react-slick"; 
-import "slick-carousel/slick/slick.css"; 
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 // images import
@@ -8,23 +8,29 @@ import image2 from "../Assests/Mainimage.jpg";
 import image3 from "../Assests/sunset.jpg";
 
 const Image = () => {
-  // Slider settings
+
   const settings = {
-    dots: true,           // கீழே dots வரும்
-    infinite: true,       // loop ஆகும்
-    speed: 900,           // transition speed
-    slidesToShow: 1,      // ஒரே படம் மட்டும்
-    slidesToScroll: 1,    // ஒரு படம் மாறும்
-    autoplay: true,       // auto slide
-    autoplaySpeed: 3000,  // 2 second-க்கு ஒருமுறை மாறும்
+    // dots: true,
+    // infinite: true,
+    // speed: 900,
+    // slidesToShow: 1,
+    // slidesToScroll: 1,
+    // autoplay: true,
+    // autoplaySpeed: 3000,
   };
 
   return (
     <div className="w-full  overflow-hidden max-w-[1550px] mx-auto mt-[35px] rounded-[20px] border border-none">
       <Slider {...settings}>
-        <img src={imge1} alt="img1" className="w-full h-[640px] object-cover" />
+        <div className=" relative">
+          <img src={image3} alt="img3" className="w-full h-[640px] object-cover" />
+          <div className=" absolute top-[100px]   left-[50px] font- font-bold  text-5xl" >
+            <p className=" text-orange-700">Munnar, Karala</p>
+            <p className=" text-white">Your perfect villa awaits.</p></div>
+        </div>
+
         <img src={image2} alt="img2" className="w-full h-[640px] object-cover" />
-        <img src={image3} alt="img3" className="w-full h-[640px] object-cover" />
+        <img src={imge1} alt="img1" className="w-full h-[640px] object-cover " />
       </Slider>
     </div>
   );
