@@ -1,8 +1,10 @@
 import { MdContactEmergency } from "react-icons/md";
-import { Link } from "react-router-dom";
+import { Link ,useNavigate} from "react-router-dom";
 
 
 const Mainheader = () => {
+    const navigate = useNavigate()
+
     return (
         <div className='  border border-none flex justify-between'>
             <div>
@@ -10,9 +12,9 @@ const Mainheader = () => {
             </div>
             <div className='flex gap-[70px] font-semibold border-none mt-[30px] text-xl ml-[20%]'>
                 <a  href="/"className='hover:text-red-600 transition-colors duration-300'>Home</a>
-                <Link to={"/about"} >Property</Link>
+                <Link to={"/about"}  className="hover:text-red-600 transition-colors duration-300">Property</Link>
 
-                <a href='/' className='hover:text-red-600 transition-colors duration-300'>Property Details</a>
+                <a href='/' className='hover:text-red-600 transition-colors duration-300' onClick={ () =>  navigate ("/deatils")}>Property Details</a>
                 <a href='/' className='hover:text-red-600 transition-colors duration-300'>About</a>
             </div>
             <div className=" border border-none flex ml-[70px] ">

@@ -4,6 +4,8 @@ import { Routes, Route } from 'react-router-dom';
 import Mainheader from "./Components/Mainheader";
 import Image from "./Components/Image"
 import About from "./Components/About";
+import Deatils from "./Components/Deatils";
+import PageNotFound from "./Components/PageNotFound";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
     <Routes>
        <Route path="/" element ={<Image />} />
        <Route path="/about" element={<About/>} />
+       <Route path="/deatils" element={<Deatils/>} />
+       <Route path="*" element={<PageNotFound/>} />
     </Routes>
     
       
