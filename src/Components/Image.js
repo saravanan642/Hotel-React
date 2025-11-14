@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import image1 from "../Assests/sunset.jpg"
 import image2 from "../Assests/beautiful-natural-landscape.jpg";
 import image3 from "../Assests/white-bengal-tiger-nature.jpg";
+import Property from "./Property";
 
 const Image = () => {
 
@@ -60,6 +61,7 @@ const Image = () => {
 
 
       </Slider>
+      <Property/>
     </div>
   );
 };
