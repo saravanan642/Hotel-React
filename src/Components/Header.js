@@ -1,4 +1,3 @@
-import React from 'react'
 import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { TiWavesOutline } from "react-icons/ti";
 import { FaFacebook } from "react-icons/fa";

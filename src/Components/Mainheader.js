@@ -12,7 +12,7 @@ const Mainheader = () => {
             </div>
             <div className='flex gap-[70px] font-semibold border-none mt-[30px] text-xl ml-[20%]'>
                 <a  href="/"className='hover:text-red-600 transition-colors duration-300'>Home</a>
-                <Link to={"/about"}  className="hover:text-red-600 transition-colors duration-300">Property</Link>
+                <Link to={"/Property"}  className="hover:text-red-600 transition-colors duration-300">Property</Link>
 
                 <a href='/' className='hover:text-red-600 transition-colors duration-300' onClick={ () =>  navigate ("/deatils")}>Property Details</a>
                 <a href='/' className='hover:text-red-600 transition-colors duration-300'>About</a>
