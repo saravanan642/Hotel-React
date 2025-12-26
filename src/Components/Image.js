@@ -17,7 +17,7 @@ const Image = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    pauseOnHover: false,// mouse mela vachalum img scroll yaganum na <= ithu//
+    pauseOnHover: true,// mouse mela vachalum img scroll yaganum na <= ithu//
     // pauseOnHover: true, mouse mela vacha img scrroll yaga kudathuna <= ithu//
   };
 
