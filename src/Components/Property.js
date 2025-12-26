@@ -18,9 +18,9 @@ const Property = () => {
           <button className=" text-3xl absoute ml-[20%] mt-[30px] border border-border-solid p-[8px]  hover:bg-slate-950 transition-colors duration-7500"> Explore Now</button>
         </div>
        <div  className="flex gap-[10%] m-[10%] justify-center" >
-          <button className="font-bold text-black flex border-2 border-black p-[10px]" >Show all</button>
-          <button className="font-bold text-black flex border-2 border-black p-[10px]">Hotel</button>
-          <button className="font-bold text-black flex border-2 border-black p-[10px]">PLaces</button>
+          <button className="font-bold text-white flex border-2 border-black p-[10px] bg-slate-950 " >Show all</button>
+          <button className="font-bold text-white flex border-2 border-black p-[10px] bg-slate-950 ">Hotel</button>
+          <button className="font-bold text-white flex border-2 border-black p-[10px] bg-slate-950 ">PLaces</button>
 
         </div>
 
